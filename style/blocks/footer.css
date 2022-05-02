@@ -40,17 +40,17 @@
 }
 
 .social__item--tg .social__links{
-  background-image: url(/img/telegram.png);
+  background-image: url(../../img/telegram.png);
 }
 
 .social__item--vk .social__links{
-  background-image: url(/img/vk.png);
+  background-image: url(../../img/vk.png);
 }
 
 .social__item--fb .social__links{
-  background-image: url(/img/fb.png);
+  background-image: url(../../img/fb.png);
 }
 
 .social__item--inst .social__links{
-  background-image: url(/img/insta.png);
+  background-image: url(../../img/insta.png);
 }

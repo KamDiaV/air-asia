@@ -69,7 +69,7 @@ img {
 
 .wrapper{
   background-color: #001821;
-  background-image: url(/img/background.jpg);
+  background-image: url(../../img/background.jpg);
   background-position: -240px 0px;
   background-repeat: no-repeat;
 }

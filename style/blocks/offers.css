@@ -13,7 +13,7 @@
 }
 
 .title--flame::before{
-  content: url(/img/flame.png);
+  content: url(../../img/flame.png);
   padding-left: 12px;
 }
 
