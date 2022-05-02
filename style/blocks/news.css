@@ -34,8 +34,9 @@
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 56px 30px;
-  min-height: 140px;
+  top: 242px;
+  padding: 10px 30px;
+  height: 140px;
 }
 
 .news__date{
