@@ -1,0 +1,50 @@
+.about{
+  margin-top: 145px;
+}
+
+.about__content:before{
+  content: "";
+  width: 488px;
+  height: 502px;
+  background: url(/img/about-1.jpg) center center / cover no-repeat;
+  border-radius: 5px;
+}
+
+.about__desc{
+  background: url(/img/about-2.jpg);
+  padding: 80px 98px;
+  width: 785px;
+  margin-left: -136px;
+  margin-top: 97px;
+  border-radius: 5px;
+  padding-left: 80px;
+}
+
+.about__content:before, .about__desc{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.about__title--dark{
+  font-size: 36px;
+  font-weight: 700;
+  color: black;
+}
+
+.about__text{
+  margin-top: 40px;
+  margin-bottom: 42px;
+  color: #060606;
+}
+
+.about__text p{
+  margin-bottom: 20px;
+}
+
+.about__text p:last-child{
+  margin-bottom: 0px;
+}
+
+.about .button{
+  width: 168px;
+}

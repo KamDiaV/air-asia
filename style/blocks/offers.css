@@ -1,0 +1,86 @@
+.offers{
+  margin-top: 245px;
+}
+
+.title--fire{
+  display: inline-block;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.title--flame{
+  display: inline-block;
+}
+
+.title--flame::before{
+  content: url(/img/flame.png);
+  padding-left: 12px;
+}
+
+.offers__item{
+  margin-top: 50px;
+  margin-right: 22px;
+  display: inline-block;
+  width: 362px;
+  min-height: 449px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.offers__item:last-child{
+  margin-right: 0px;
+}
+
+.offers__header .offers__img{
+  width: 362px;
+  height: 144px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.offers__content{
+  padding-top: 8px;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-bottom: 26px;
+}
+
+.offers__title{
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.features__text, .feature__img {
+  display: inline-block;
+  margin-top: 22px;
+  margin-left: 5px;
+  color: #666666;
+}
+
+.feature__img{
+  margin-right: 1px;
+}
+  
+.features__text{
+  margin-right: 22px;
+}
+
+.features__item:last-child{
+  margin-left: 0px;
+}
+
+.offers__text{
+  margin-top: 20px;
+  width: 324px;
+  color: #303030;
+  font-size: 14px;
+}
+
+.offers__content, .button--light, .button--active{
+  margin-top: 24px;
+}
+
+.button--active{
+  color: #fff;
+  background-color: #F5170E;
+}

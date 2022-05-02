@@ -1,16 +1,20 @@
 html {
-	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+  scroll-behavior: smooth;
+  font-size: 16px;
+  line-height: 1.4;
+  font-style: normal;
 }
 
-body,
-html {
+html,
+body {
 	height: 100%;
 }
 
 body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	color: #000;
+	color: #fff;
 	margin: 0;
 }
 
@@ -44,10 +48,6 @@ p {
 	padding: 0;
 }
 
-button {
-	cursor: pointer;
-}
-
 a {
 	color: inherit;
 	cursor: pointer;
@@ -60,10 +60,88 @@ img {
 	max-height: 100%;
 }
 
-.container {
+.maincontent, .header, .footer {
   margin: 0 auto;
   width: 100%;
   height: 100%;
   max-width: 1142px;
 }
 
+.wrapper{
+  background-color: #001821;
+  background-image: url(/img/background.jpg);
+  background-position: -240px 0px;
+  background-repeat: no-repeat;
+}
+
+.logo, .menu, .menu__item, .contacts{
+  display: inline-block;
+}
+
+.logo, .contacts{
+  margin-top: 32px;
+}
+
+.logo{
+  float: left;
+}
+
+.contacts{
+  float: right;
+}
+
+.menu{
+  margin-left: 79px;
+  margin-top: 42px;
+}
+
+.menu__item{
+  margin-right: 50px;
+  font-size: 14px;
+}
+
+.menu__item:last-child{
+  margin-right: 0px;
+}
+
+.menu__link:hover{
+  color: #DA0100;
+}
+
+.contacts__phone{
+  font-size: 26px;
+  line-height: 30px;
+  text-align: end;
+}
+
+.contacts__workhours{
+  margin-top: -5px;
+  font-size: 13px;
+  line-height: 20px;
+  text-decoration: underline;
+  color: #98A4A8;
+  text-align: end;
+}
+
+.contacts__workhours:hover{
+  color: #fff;
+}
+
+.button{
+  display: inline-block;
+  padding: 18px 30px;
+  background-color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #F5170E;
+  border-radius: 35px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform:uppercase;
+  color: #F5170E;
+}
+
+.button:hover{
+  background-color: #F5170E;
+  color: #fff;
+}

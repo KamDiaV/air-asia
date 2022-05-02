@@ -1,0 +1,7 @@
+.header {
+  height: 77px;
+}
+
+.menu__item--active .menu__link{
+  color: #DA0100;
+}
