@@ -6,11 +6,11 @@
 }
 
 .social__list, .social__item--tg, .social__item--vk, .social__item--fb, .social__item--inst{
-  display: inline-block;
+  display: inline-flex;
   vertical-align: middle;
 }
 
-.contacts__footer{
+.contacts__info--footer{
   font-size: 11px;
   font-style: normal;
   color: #9A9A9A;
@@ -19,13 +19,13 @@
 }
 
 .footer__right{
-  display: inline-block;
+  display: inline-flex;
   float: right;
 }
 
 .social__links {
   margin-top:32px;
-  display: inline-block;
+  display: inline-flex;
   width: 36px;
   height: 36px;
   margin-right: 10px;

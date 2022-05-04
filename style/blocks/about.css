@@ -21,7 +21,8 @@
 }
 
 .about__content:before, .about__desc{
-  display: inline-block;
+  display: inline-flex;
+  flex-direction: column;
   vertical-align: top;
 }
 

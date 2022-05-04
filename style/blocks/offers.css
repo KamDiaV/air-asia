@@ -3,13 +3,13 @@
 }
 
 .title--fire{
-  display: inline-block;
+  display: inline-flex;
   font-size: 36px;
   font-weight: 700;
 }
 
 .title--flame{
-  display: inline-block;
+  display: inline-flex;
 }
 
 .title--flame::before{
@@ -51,7 +51,7 @@
 }
 
 .features__text, .feature__img {
-  display: inline-block;
+  display: inline-flex;
   margin-top: 22px;
   margin-left: 5px;
   color: #666666;
