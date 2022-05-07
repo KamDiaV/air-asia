@@ -1,5 +1,5 @@
 .about{
-  margin-top: 145px;
+  margin-bottom: 55px;
 }
 
 .about__content:before{
@@ -12,12 +12,13 @@
 
 .about__desc{
   background: url(../../img/about-2.jpg);
-  padding: 80px 98px;
+  padding: 70px 98px;
   width: 785px;
   margin-left: -136px;
   margin-top: 97px;
   border-radius: 5px;
   padding-left: 80px;
+  height: 455px;
 }
 
 .about__content:before, .about__desc{
@@ -30,12 +31,13 @@
   font-size: 36px;
   font-weight: 700;
   color: black;
+  margin-bottom: 38px;
 }
 
 .about__text{
-  margin-top: 40px;
   margin-bottom: 42px;
   color: #060606;
+  width: 502px;
 }
 
 .about__text p{

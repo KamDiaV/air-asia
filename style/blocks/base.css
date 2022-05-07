@@ -73,7 +73,17 @@ img {
   flex-direction: column;
 }
 
-.wrapper__content{
+.wrapper .wrapper__content-offers{
+  overflow: hidden;
+  background-color: #fff;
+  background-image: url(../../img/headline\ 1.jpg);
+  background-repeat: no-repeat;
+  background-position: center 0;
+  min-width: 1142px;
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
   flex: 1;
 }
 
@@ -89,7 +99,7 @@ img {
 }
 
 .logo, .contacts{
-  margin-top: 32px;
+  padding-top: 32px;
 }
 
 .logo{
@@ -102,7 +112,7 @@ img {
 
 .menu{
   margin-left: 79px;
-  margin-top: 42px;
+  padding-top: 42px;
 }
 
 .menu__item{
@@ -125,7 +135,7 @@ img {
 }
 
 .contacts__info{
-  margin-top: -5px;
+
   font-size: 13px;
   line-height: 20px;
   text-decoration: underline;
@@ -155,3 +165,4 @@ img {
   background-color: #F5170E;
   color: #fff;
 }
+

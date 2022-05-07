@@ -1,5 +1,6 @@
 .header {
   height: 77px;
+  margin-bottom: 120px;
 }
 
 .menu__item--active .menu__link{

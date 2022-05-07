@@ -1,18 +1,21 @@
+.hello{
+  margin-bottom: 246px;
+}
+
 .hello__title{
-  margin-top: 120px;
   width: 515px;
   font-size: 72px;
   font-weight: 700;
   color: #fff;
+  margin-bottom: 22px;
 }
 
 .hello__subtitle{
-  margin-top: 22px;
+  margin-bottom: 30px;
   color: #fff;
 }
 
 .hello .button {
-  margin-top: 33px;
   padding: 18px 40px;
 }
 

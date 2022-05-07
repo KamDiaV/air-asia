@@ -1,11 +1,12 @@
 .offers{
-  margin-top: 245px;
+  margin-bottom: 127px;
 }
 
 .title--fire{
   display: inline-flex;
   font-size: 36px;
   font-weight: 700;
+  margin-bottom: 50px;
 }
 
 .title--flame{
@@ -18,7 +19,6 @@
 }
 
 .offers__item{
-  margin-top: 50px;
   margin-right: 22px;
   display: inline-block;
   width: 362px;
@@ -38,21 +38,21 @@
 }
 
 .offers__content{
-  padding-top: 8px;
+  padding-top: 32px;
   padding-left: 22px;
   padding-right: 22px;
-  padding-bottom: 26px;
+  /* padding-bottom: 26px; */
 }
 
 .offers__title{
   color: black;
   font-size: 24px;
   font-weight: 700;
+  margin-bottom: 20px;
 }
 
 .features__text, .feature__img {
   display: inline-flex;
-  margin-top: 22px;
   margin-left: 5px;
   color: #666666;
 }
@@ -63,6 +63,7 @@
   
 .features__text{
   margin-right: 22px;
+  margin-bottom: 18px;
 }
 
 .features__item:last-child{
@@ -70,14 +71,10 @@
 }
 
 .offers__text{
-  margin-top: 20px;
   width: 324px;
   color: #303030;
   font-size: 14px;
-}
-
-.offers__content, .button--light, .button--active{
-  margin-top: 24px;
+  margin-bottom: 28px;
 }
 
 .button--active{
