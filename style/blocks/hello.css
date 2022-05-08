@@ -2,8 +2,15 @@
   margin-bottom: 246px;
 }
 
+.hero__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 783px;
+}
+
 .hello__title{
-  width: 515px;
+  width: 48%;
   font-size: 72px;
   font-weight: 700;
   color: #fff;

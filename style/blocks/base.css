@@ -62,29 +62,25 @@ img {
 
 .wrapper{
   overflow: hidden;
-  background-color: #001821;
-  background-image: url(../../img/background.jpg);
-  background-repeat: no-repeat;
-  background-position: center 0;
-  min-width: 1142px;
+  min-width: 1200px;
   width: 100%;
   min-height: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.wrapper .wrapper__content-offers{
-  overflow: hidden;
-  background-color: #fff;
-  background-image: url(../../img/headline\ 1.jpg);
+.wrapper__main{
+  background-color: #001821;
+  background-image: url(../../img/background.jpg);
   background-repeat: no-repeat;
   background-position: center 0;
-  min-width: 1142px;
-  width: 100%;
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  flex: 1;
+}
+
+.wrapper__service{
+  background-color: #fff;
+  background-image: url(../../img/headline-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center 0;
 }
 
 .container{
@@ -98,21 +94,8 @@ img {
   display: inline-block;
 }
 
-.logo, .contacts{
-  padding-top: 32px;
-}
-
 .logo{
-  float: left;
-}
-
-.contacts{
-  float: right;
-}
-
-.menu{
-  margin-left: 79px;
-  padding-top: 42px;
+  margin-right: 78px;
 }
 
 .menu__item{
@@ -131,11 +114,9 @@ img {
 .contacts__phone{
   font-size: 26px;
   line-height: 30px;
-  text-align: end;
 }
 
 .contacts__info{
-
   font-size: 13px;
   line-height: 20px;
   text-decoration: underline;

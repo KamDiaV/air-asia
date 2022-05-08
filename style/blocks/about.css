@@ -2,7 +2,12 @@
   margin-bottom: 55px;
 }
 
+.about__content{
+  display: flex;
+}
+
 .about__content:before{
+  display: block;
   content: "";
   width: 488px;
   height: 502px;
@@ -19,12 +24,6 @@
   border-radius: 5px;
   padding-left: 80px;
   height: 455px;
-}
-
-.about__content:before, .about__desc{
-  display: inline-flex;
-  flex-direction: column;
-  vertical-align: top;
 }
 
 .about__title--dark{

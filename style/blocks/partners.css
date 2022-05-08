@@ -1,0 +1,35 @@
+.inner-section{
+  background-color: #F4F5F5;
+  padding: 88px 0px;
+}
+
+.inner-section__titile{
+  font-size: 48px;
+  font-weight: 700;
+  color: #1A1B1E;
+  margin-bottom: 65px;
+}
+
+.partners__list{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -16px;
+}
+
+.partners__item{
+  margin-left: 52px;
+}
+
+.partners__item:nth-child(4n+1){
+  margin-left: 0px;
+}
+
+.partners__link{
+  text-decoration: none;
+  display: flex;
+  width: 250px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}

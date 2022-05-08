@@ -1,0 +1,55 @@
+.page__content{
+  margin-bottom: 85px;
+}
+
+.service{
+  display: flex;
+  align-items: center;
+}
+
+.service__img{
+  margin-right: 5%;
+}
+
+.service__content{
+  flex: 1;
+}
+
+.service__title{
+  font-size: 36px;
+  color: black;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+
+.service__desc{
+  font-size: 16px;
+  color: #303030;
+  margin-bottom: 34px;
+}
+
+.services__item{
+  margin-bottom: 50px;
+}
+
+.services__list:last-child{
+  margin-bottom: 0px;
+}
+
+.services__list{
+  margin-bottom: 65px;
+}
+
+.service .button {
+  padding: 18px 40px;
+}
+
+.paginator__page__content{
+  color: black;
+}
+
+.paginator__page__content .paginator__item--active .paginator__link{
+  background: #F5170E;
+  color: #fff;
+  line-height: 32px;
+}

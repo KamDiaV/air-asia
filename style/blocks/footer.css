@@ -1,11 +1,27 @@
 .footer{
-  min-height: 150px;
-  position: relative;
+  background-color: #001821;
 }
 
-.social__list, .social__item--tg, .social__item--vk, .social__item--fb, .social__item--inst{
-  display: inline-flex;
-  vertical-align: middle;
+.footer__container{
+  min-height: 150px;
+  margin-top: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__container--brd{
+  border-top: 1px solid #30444B;
+}
+
+.footer__col {
+  display: flex;
+  align-items: center;
+}
+
+.footer__col--align--right{
+  align-items: flex-end;
 }
 
 .contacts__info--footer{
@@ -16,13 +32,7 @@
   text-align: end;
 }
 
-.footer__right{
-  display: inline-flex;
-  float: right;
-}
-
 .social__links {
-  padding-top:32px;
   display: inline-block;
   width: 36px;
   height: 36px;
@@ -30,8 +40,8 @@
 }
 
 .social__list{
+  display: flex;
   margin-right: 71px;
-  padding-top: 35px;
 }
 
 .social__list:last-child{
@@ -52,9 +62,4 @@
 
 .social__item--inst .social__links{
   background-image: url(../../img/insta.png);
-}
-
-.container--footer{
-  border-top: 1px solid #30444B;
-  padding-top: 15px;
 }
