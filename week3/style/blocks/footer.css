@@ -1,0 +1,65 @@
+.footer{
+  background-color: #001821;
+}
+
+.footer__container{
+  min-height: 150px;
+  margin-top: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__container--brd{
+  border-top: 1px solid #30444B;
+}
+
+.footer__col {
+  display: flex;
+  align-items: center;
+}
+
+.footer__col--align--right{
+  align-items: flex-end;
+}
+
+.contacts__info--footer{
+  font-size: 11px;
+  font-style: normal;
+  color: #9A9A9A;
+  text-decoration: none;
+  text-align: end;
+}
+
+.social__links {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
+}
+
+.social__list{
+  display: flex;
+  margin-right: 71px;
+}
+
+.social__list:last-child{
+  margin-right: 0px;
+}
+
+.social__item--tg .social__links{
+  background-image: url(../../img/telegram.png);
+}
+
+.social__item--vk .social__links{
+  background-image: url(../../img/vk.png);
+}
+
+.social__item--fb .social__links{
+  background-image: url(../../img/fb.png);
+}
+
+.social__item--inst .social__links{
+  background-image: url(../../img/insta.png);
+}

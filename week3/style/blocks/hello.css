@@ -1,0 +1,32 @@
+.hello{
+  margin-bottom: 246px;
+}
+
+.hero__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 783px;
+}
+
+.hello__title{
+  width: 48%;
+  font-size: 72px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 22px;
+}
+
+.hello__subtitle{
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.hello .button {
+  padding: 18px 40px;
+}
+
+.button:hover{
+  background-color: #F5170E;
+  color: #fff;
+}

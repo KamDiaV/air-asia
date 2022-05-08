@@ -1,0 +1,149 @@
+html {
+	font-family: 'Open Sans', sans-serif;
+  scroll-behavior: smooth;
+  font-size: 16px;
+  line-height: 1.4;
+  font-style: normal;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #fff;
+	margin: 0;
+}
+
+button {
+	border: 0;
+	cursor: pointer;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+	font-weight: normal;
+	margin: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: inherit;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.wrapper{
+  overflow: hidden;
+  min-width: 1200px;
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper__main{
+  background-color: #001821;
+  background-image: url(../../img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center 0;
+}
+
+.wrapper__service{
+  background-color: #fff;
+  background-image: url(../../img/headline-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center 0;
+}
+
+.container{
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  max-width: 1142px;
+}
+
+.logo, .menu, .menu__item, .contacts{
+  display: inline-block;
+}
+
+.logo{
+  margin-right: 78px;
+}
+
+.menu__item{
+  margin-right: 50px;
+  font-size: 14px;
+}
+
+.menu__item:last-child{
+  margin-right: 0px;
+}
+
+.menu__link:hover{
+  color: #DA0100;
+}
+
+.contacts__phone{
+  font-size: 26px;
+  line-height: 30px;
+}
+
+.contacts__info{
+  font-size: 13px;
+  line-height: 20px;
+  text-decoration: underline;
+  color: #98A4A8;
+  text-align: end;
+}
+
+.contacts__info:hover{
+  color: #fff;
+}
+
+.button{
+  display: inline-flex;
+  padding: 18px 30px;
+  background-color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #F5170E;
+  border-radius: 35px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform:uppercase;
+  color: #F5170E;
+}
+
+.button:hover{
+  background-color: #F5170E;
+  color: #fff;
+}
+
