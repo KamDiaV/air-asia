@@ -32,4 +32,9 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 15px;
+  filter: grayscale(1);
+}
+
+.partners__link:hover{
+  filter: grayscale(0);
 }

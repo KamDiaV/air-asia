@@ -52,14 +52,30 @@
   background-image: url(../../img/telegram.png);
 }
 
+.social__item--tg .social__links:hover{
+  background-image: url(../../img/telegram-hover.png);
+}
+
 .social__item--vk .social__links{
   background-image: url(../../img/vk.png);
+}
+
+.social__item--vk .social__links:hover{
+  background-image: url(../../img/vk-hover.png);
 }
 
 .social__item--fb .social__links{
   background-image: url(../../img/fb.png);
 }
 
+.social__item--fb .social__links:hover{
+  background-image: url(../../img/fb-hover.png);
+}
+
 .social__item--inst .social__links{
   background-image: url(../../img/insta.png);
+}
+
+.social__item--inst .social__links:hover{
+  background-image: url(../../img/insta-hover.png);
 }
