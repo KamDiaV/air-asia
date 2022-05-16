@@ -116,6 +116,7 @@ img {
 
 .menu__link:hover{
   color: #DA0100;
+  transition: .3s;
 }
 
 .contacts__phone{
@@ -204,6 +205,7 @@ img {
 .button:hover{
   background-color: #F5170E;
   color: #fff;
+  transition: .5s;
 }
 
 .button--black{
