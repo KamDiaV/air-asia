@@ -83,6 +83,13 @@ img {
   background-position: center 0;
 }
 
+.wrapper__review{
+  background-color: #fff;
+  background-image: url(../../img/headline-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center 0;
+}
+
 .container{
   margin: 0 auto;
   width: 100%;
@@ -121,11 +128,63 @@ img {
   line-height: 20px;
   text-decoration: underline;
   color: #98A4A8;
-  text-align: end;
+  float: right;
 }
 
-.contacts__info:hover{
+.dropdown{
+  position: relative;
+  display: block;
+}
+
+.dropdown:hover .dropdown__menu {
+  left: 0;
+  opacity: 1;
+}
+
+.dropdown:hover .dropdown__link{
   color: #fff;
+}
+
+.dropdown__menu{
+  position: absolute;
+  background-image: url(../../img/dropdown.png);
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 77px;
+  top: 100%;
+  margin-top: 20px;
+  margin-left: 27px;
+  opacity: 0;
+  transition: opacity .4s;
+  left: -9999px;
+}
+
+.dropdown__menu:before{
+  content: "";
+  display: block;
+  height: 30px;
+  left: 0;
+  right: 0;
+  top: -30px;
+  position: absolute;
+}
+
+.dropdown__list{
+  padding: 25px 20px;
+}
+
+.dropdown__item{
+  font-size: 13px;
+  color: #1E1F20;
+  text-decoration: none;
+}
+
+.dropdown__item-bold{
+  font-weight: 700;
+}
+
+.dropdown__item-semibold{
+  font-weight: 600;
 }
 
 .button{
@@ -147,3 +206,13 @@ img {
   color: #fff;
 }
 
+.button--black{
+  background-color: #2B2B2B;
+  color: #fff;
+  border: none;
+}
+
+.contacts__info--footer{
+  display: block;
+  float: none;
+}
