@@ -41,9 +41,11 @@
 }
 
 .review__user:after{
-  content: url("../../img/vk-blue.png");
-  height: 29px;
+  content: '';
   margin-left: 10px;
+  display: block;
+  width: 30px; height: 30px;
+  background: url('../../img/css_sprites.png') -168px -0px;
 }
 
 .review__tags{
